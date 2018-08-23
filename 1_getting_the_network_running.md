@@ -159,18 +159,8 @@ If you console log `MetaCoinContract` you’ll see an object with many different
 
 Alright I’m going to leave you guys now but hopefully this is a good start for you guys. What do you think? Can anything be optimized? What can be done better or different?
 
-Also we are trying to get this VeChain open source community going so if you have an idea or need help PM me.
-
 ​
-
 edit: it seems as though we aren't connecting to a local standalone blockchain on your local machine per the docs. This is different from my Ethereum development as you create a standalone testing blockchain. Maybe someone can provide further information. I will update the post to reflect information given by the community.
 
-​
-
 edit 2 (thanks u/davy_li): Running `make` without a target name will process the first Makefile target that doesn't start with `a` . (so in this case, equivalent to running `make thor`). On the other hand, `make all` will run the thor and disco targets, where "disco" is a boostrap node for the Ethereum discovery protocol.
-
 ​
-
-​
-
-P.S. Community site is coming along nicely.
